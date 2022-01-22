@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(32, 32, 32, 0.8);
+}
+
+.container {
+    text-align: center;
+    margin-top: 20%;
+}
+
+#countdown {
+    font-family: sans-serif;
+    display: block;
+    width: 20%;
+    padding: 30px 20px;
+    margin: auto;
+    color: white;
+    border: 5px solid rgb(224, 132, 132);
+}
+
+.info {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(12, 243, 147);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        margin-top: 40%;
+    }
+    .info {
+        width: 60%;
+    }
+}
